@@ -1,0 +1,1 @@
+Following instructions on https://software.intel.com/en-us/articles/intel-cyclone-10-lp-fpga-board-how-to-program-your-first-fpga

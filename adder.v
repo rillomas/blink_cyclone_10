@@ -1,5 +1,4 @@
 module Adder (
-	input wire clk, // 50MHz input clock
 	input wire switch_0,
 	input wire switch_1,
 	input wire switch_2,

@@ -7,6 +7,6 @@ module Adder (
 );
 	logic sum;
 	FullAdder fa(.a(switch_0), .b(switch_1), .ci(switch_2), .s(sum), .co(led_1));
-	// We invert the bit since we're connecting to a anode common LED (0 will light the LED)
+	// We need to invert the bit to light LED when switch is pressed (not sure why yet)
 	assign led_0 = ~sum;
 endmodule

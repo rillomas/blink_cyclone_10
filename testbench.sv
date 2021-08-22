@@ -2,11 +2,11 @@
 module testbench ();
 
 	parameter STEP = 100;
-	reg	s0;
-	reg	s1;
-	reg	s2;
-	wire l0;
-	wire l1;
+	logic	s0;
+	logic	s1;
+	logic	s2;
+	logic l0;
+	logic l1;
 	
 	Adder adder (
 		.switch_0(s0),
